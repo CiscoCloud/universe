@@ -1,6 +1,19 @@
 {
   "packages":[
     {
+      "currentVersion":"1.0.0",
+      "description":"ElasticSearch application for DCOS (in development)",
+      "framework":true,
+      "name":"elasticsearch",
+      "tags":[
+        "mesos",
+        "framework"
+      ],
+      "versions":{
+        "1.0.0":"0"
+      }
+    },
+    {
       "currentVersion":"0.1.0-1",
       "description":"Apache Cassandra running on Apache Mesos",
       "framework":true,
