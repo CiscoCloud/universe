@@ -1,0 +1,11 @@
+{
+  "name": "zoomdata",
+  "version": "1.6.0",
+  "website": "http://zoomdata.com",
+  "maintainer": "support@zoomdata.com",
+  "description": "Zoomdata application for DCOS",
+  "framework": true,
+  "preInstallNotes": "Put .dockercfg into HDFS",
+  "postInstallNotes": "",
+  "tags": [ "mesos", "framework", "docker" ]
+}

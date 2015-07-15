@@ -14,6 +14,20 @@
       }
     },
     {
+      "currentVersion":"0.1.0-2",
+      "description":"Zoomdata application",
+      "framework":true,
+      "name":"zoomdata",
+      "tags":[
+        "mesosphere",
+        "framework",
+        "docker"
+      ],
+      "versions":{
+        "0.1.0-2":"0"
+      }
+    },
+    {
       "currentVersion":"2.3.4",
       "description":"A fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules.",
       "framework":true,
