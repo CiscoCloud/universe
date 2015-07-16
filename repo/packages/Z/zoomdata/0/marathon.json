@@ -1,0 +1,18 @@
+{
+    "id": "zoomdata-160",
+    "container": {
+        "docker": {
+            "image": "msa-docker.zoomdata.com:5043/plain/zdquickstart:cisco160",
+            "network": "HOST"
+        },
+        "type": "DOCKER",
+        "volumes": []
+    },
+    "cpus": 2.0,
+    "mem": 8192.0,
+    "instances": 1,
+    "ports": [8443],
+    "disk": 10240.0,
+    "uris": ["hdfs://hdfs/.dockercfg"],
+    "cmd" : "/opt/docker/run.sh && tail -fn100 /opt/zoomdata/logs/zoomdata.log"
+}
